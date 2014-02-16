@@ -13,7 +13,7 @@ tell application "Safari"
     tell process "Safari"
       -- Click Check in radio button
       tell (UI element 1 of group 3 of UI element 1 of scroll area 1 of group 4 of UI element 1 of scroll area 3 of UI element 1 of scroll area 1 of group 1 of group 1 of group 2 of window 1)
-				if exists then
+        if exists then
 					click
 				end if
 			end tell
