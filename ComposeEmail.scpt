@@ -34,7 +34,7 @@ tell application "Safari"
       delay aCoupleOfSeconds
       keystroke "a" using command down
       delay aCoupleOfSeconds
-      keystroke "Done task one"
+      keystroke "Done task"
       delay aCoupleOfSeconds
 
       -- Click Send button
