@@ -1,6 +1,6 @@
 -- osascript SaveHtmlPage.scpt "http://www.google.com"
 on run arg
-	tell application "Safari"
+    tell application "Safari"
 	        activate
 		if not (exists document 1) then reopen
 		set URL of document 1 to item 1 of arg
